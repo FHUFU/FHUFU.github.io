@@ -522,10 +522,12 @@ github_issues:
 # More info available at https://valine.js.org
 # extend: https://github.com/DesertsP/Valine-Admin
 valine:
-  enable: false
-  appId: # your leancloud application appid
-  appKey: # your leancloud application appkey
-  placeholder: Just go go # comment box placeholder
+  enable: true
+  appid: elXMU8j1hCGPeeEGxcHiNm8r-gzGzoHsz
+  appkey: n79ShAdWuV8hG6cbp61CRl9l
+  notify: false
+  verfy: false
+  placeholser: 沙发等你来创造！
   avatar: # gravatar style
   # meta:
   #   - nick
@@ -639,7 +641,7 @@ symbols_count_time:
 search:
   bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/stars-timing-0-blur-30px.jpg
   dark_bg_image: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/bg/mountain.jpg
-  # placeholder: 想要搜些什么？
+  placeholder: 想要搜些什么？
 
 engine_search:
   enable: false
