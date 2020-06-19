@@ -151,8 +151,8 @@ menu:
       path: /tags/
       icon: icon-price-tag-3-line
   custom:
-    title: 文档
-    path: https://yun.yunyoujun.cn
+    title: 外面的世界
+    path: https://hhufu.cn
     icon: icon-settings-line
 
 # archive
@@ -393,15 +393,15 @@ reward_settings:
 
 reward:
   - name: 支付宝
-    path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/alipay-qrcode.jpg
+    path: http://qb4c7lv86.bkt.clouddn.com/ZFB.png
     color: "#00A3EE"
     icon: icon-alipay-line
   - name: QQ 支付
-    path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/qqpay-qrcode.png
+    path: http://qb4c7lv86.bkt.clouddn.com/QQ.png
     color: "#12B7F5"
     icon: icon-qq-line
   - name: 微信支付
-    path: https://cdn.jsdelivr.net/gh/YunYouJun/cdn/img/donate/wechatpay-qrcode.jpg
+    path: http://qb4c7lv86.bkt.clouddn.com/WX.png
     color: "#2DC100"
     icon: icon-wechat-pay-line
   # - name: paypal
@@ -502,20 +502,20 @@ say:
 
 # Comments
 # -------
-comment:
-  enable: true
-  icon: icon-chat-3-line
-  tips:
+#comment:
+#  enable: true
+#  icon: icon-chat-3-line
+#  tips:
     - 点击按钮跳转 GitHub Issues 评论。
     - 若没有本文 Issue，您可以使用 Comment 模版新建。
 
 # GitHub Issues Link Button
 # https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests
-github_issues:
-  enable: true
-  username: YunYouJun
-  repository: yunyoujun.github.io
-  filters: is:issue
+#github_issues:
+#  enable: true
+#  username: YunYouJun
+#  repository: yunyoujun.github.io
+#  filters: is:issue
 
 # Valine
 # You can get your appid and appkey from https://leancloud.cn
