@@ -315,7 +315,7 @@ vendors:
 # UI
 banner:
   enable: true
-  title: 大华君的小站
+  title: 大华君的小博客
   src: /js/ui/banner.js
   cloud:
     enable: true
@@ -483,7 +483,7 @@ notice:
 # say something
 # https://say.elpsy.cn
 say:
-  enable: true
+  enable: false
   # api: https://say.elpsy.cn/sentences.json
   # /data/sentences.json
   api: https://cdn.jsdelivr.net/gh/ElpsyCN/say@gh-pages/sentences.json
@@ -491,7 +491,7 @@ say:
   src: /js/say.js
   # https://developer.hitokoto.cn/sentence/
   hitokoto:
-    enable: true
+    enable: false
     api: https://v1.hitokoto.cn
     # api: https://v1.hitokoto.cn?c=a&c=b&c=c&c=d&c=k
 
@@ -506,8 +506,8 @@ say:
 #  enable: true
 #  icon: icon-chat-3-line
 #  tips:
-    - 点击按钮跳转 GitHub Issues 评论。
-    - 若没有本文 Issue，您可以使用 Comment 模版新建。
+   # - 点击按钮跳转 GitHub Issues 评论。
+    #- 若没有本文 Issue，您可以使用 Comment 模版新建。
 
 # GitHub Issues Link Button
 # https://help.github.com/en/github/searching-for-information-on-github/searching-issues-and-pull-requests
@@ -648,7 +648,7 @@ engine_search:
   href: "https://www.google.com/search?q=site:"
   # href: "https://www.baidu.com/s?wd=site:"
   # href: "https://www.bing.com/search?q=site:"
-  domain: yunyoujun.cn
+  domain: hhufu.xyz
 
 # https://github.com/wzpan/hexo-generator-search
 local_search:
